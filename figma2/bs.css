@@ -2787,6 +2787,22 @@ textarea.form-control-lg {
     print-color-adjust: exact
 }
 
+.ipt{
+    display: flex;
+    justify-content: center;
+    @media (max-width:426px) {
+        display: block;
+    }
+}
+
+.right-textarea{
+    margin-top: 0px;
+    @media (max-width:426px) {
+        margin-top: 40px;
+        
+    }
+}
+
 .form-check-input[type=checkbox] {
     border-radius: .25em
 }
@@ -4419,7 +4435,7 @@ fieldset:disabled .btn {
     --bs-nav-link-hover-color: var(--bs-link-hover-color);
     --bs-nav-link-disabled-color: var(--bs-secondary-color);
     border: 1px solid black;
-    background-color: white;
+    background-color: transparent;
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
@@ -8378,7 +8394,7 @@ fieldset:disabled .btn {
 }
  .mnmx{
     grid-template-columns: repeat(auto-fit,minmax(370px,370px));
-    
+
  }
 
  .section3{
